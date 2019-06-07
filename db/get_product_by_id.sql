@@ -1,0 +1,1 @@
+SELECT * FROM shelfie_products WHERE shelfie_product_id = $1;
