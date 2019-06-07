@@ -9,6 +9,7 @@
     "massive": "^5.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1"
   },
   "main": "server/index.js",
@@ -33,12 +34,11 @@
       "last 1 safari version"
     ]
   },
-  "proxy" : "http://localhost:3001",
+  "proxy": "http://localhost:3001",
   "nodemonConfig": {
     "ignore": [
       "src/*"
     ],
     "ext": "sql,js"
   }
-  
 }

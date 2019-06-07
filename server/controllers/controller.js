@@ -20,7 +20,7 @@ module.exports = {
     getId: (req, res) => {
         let db = req.app.get('db');
         db.get_product_by_id(req.params.id).then(response => {
-            res.send(response).status(200);
+            res.send(response[0]).status(200);
         }).catch(err => {
             res.send(err).status(500);
         })
